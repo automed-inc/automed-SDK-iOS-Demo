@@ -1,0 +1,11 @@
+framework module automedSDK {
+  umbrella header "automedSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module automedSDK.Swift {
+    header "automedSDK-Swift.h"
+    requires objc
+}
